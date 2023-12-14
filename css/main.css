@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@layer components {
+    section {
+        padding: 0 1.5rem;
+    }
+
+    input {
+        width: 20.4375rem;
+        height: 5.5rem;
+        background-color: hsl(224, 36%, 15%);
+        margin-bottom: 1.5rem;
+    }
+
+    button {
+        width: 3.75rem;
+        height: 4rem;
+    }
+
+    div {
+        width: 20.4375rem;
+        height: 26.25rem;
+    }
+
+    #delete, #reset {
+        box-shadow: 0 -4px 0 inset hsl(224, 28%, 35%);
+        width: 8.3125rem;
+        height: 4rem;
+    }
+    #equals {
+        box-shadow: 0 -4px 0 inset hsl(6, 70%, 34%);
+        width: 8.3125rem;
+        height: 4rem;
+    }
+}
+
+@layer utilities {
+
+}
